@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
   s.name             = “anychat”  
-  s.version          = “2.3.418”  
+  s.version          = “0.0.1”  
   s.summary          = “video and video”  
   s.description      = <<-DESC  
                        It is a video and audio used on iOS, which implement by Objective-C.  
