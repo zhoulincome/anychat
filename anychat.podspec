@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "6.0"
   s.source       = { :git => "https://github.com/zhoulincome/anychat.git", :tag => "1.0.0" }
-  s.source_files  = "anychat/**/*.{h,m,a}"
+  s.source_files  = "anychat/*.{h,m,a}"
   s.frameworks = "AVFoundation", "QuartzCore", "CoreMedia", "AudioToolbox" , "CoreVideo" , "CoreAudio"   
   s.libraries = "stdc++", "stdc++.6", "c++"	
 
