@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/zhoulincome/anychat"
   s.license      = "MIT"
   s.author             = { "zhoulin" => "email@address.com" }
-  s.platform     = :ios, "5.0"
+  s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/zhoulincome/anychat.git", :tag => "1.0.1" }
   s.source_files  = "anychat/*"
   s.frameworks = "AVFoundation", "QuartzCore", "CoreMedia", "AudioToolbox", "CoreVideo", "CoreAudio"
