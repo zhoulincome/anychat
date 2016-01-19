@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "anychat"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "video And Audio"
   s.description  = <<-DESC
 		    1,音视频解决方案,详情见anychat官网	
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.libraries = "stdc++", "stdc++.6", "c++"
   s.vendored_libraries = "anychat/*.a"
   s.public_header_files = "anychat/*.h"
-	
+  s.xcconfig     = {"OTHER_LDFLAGS" => "-ObjC"} 
   s.requires_arc = true
 
 end
